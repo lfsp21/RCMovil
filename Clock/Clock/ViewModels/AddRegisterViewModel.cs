@@ -1,7 +1,7 @@
 ﻿namespace Clock.ViewModels
 {
     using System.Windows.Input;
-    using Common;
+    using Clock.Common;
     using Helpers;
     using GalaSoft.MvvmLight.Command;
     using Plugin.Media;
@@ -232,5 +232,11 @@
         }
 
         #endregion
+
+        //Futuro: Método que una vez presionado algún botón de registro, muestre el nombre en pantalla del empleado
+        //dentro de una alerta
+
+        //Futuro: Método que una vez presionado algún botón de registro, limpie todos los campos y no sea necesario
+        //la transición a otra pantalla
     }
 }

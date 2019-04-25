@@ -107,5 +107,9 @@
         }
         #endregion
 
+        //Futuro: Método que registre el acceso con huella digital
+        
+
+
     }
 }
