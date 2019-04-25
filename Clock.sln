@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock.Android", "Clock\Clock.Android\Clock.Android.csproj", "{D5560C29-72D3-42B6-825E-670DCC4ED841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock\Clock\Clock.csproj", "{30160C01-F67B-4D8E-9A89-F5BB3F1A049F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock.Backend", "Clock.Backend\Clock.Backend.csproj", "{42DAB00B-9AC9-4EE2-BB51-B4E8A2193496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock.API", "Clock.API\Clock.API.csproj", "{95DB36A9-45FF-41A6-9257-28B88753C02F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock.Domain", "Clock.Domain\Clock.Domain.csproj", "{E56CCF5E-8AAA-4BAB-ABA2-6E6E16A5F50F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock.Common", "Clock.Common\Clock.Common.csproj", "{86A99708-E99E-4344-A93B-B0EBBEAE94AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5560C29-72D3-42B6-825E-670DCC4ED841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5560C29-72D3-42B6-825E-670DCC4ED841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5560C29-72D3-42B6-825E-670DCC4ED841}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D5560C29-72D3-42B6-825E-670DCC4ED841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5560C29-72D3-42B6-825E-670DCC4ED841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5560C29-72D3-42B6-825E-670DCC4ED841}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{30160C01-F67B-4D8E-9A89-F5BB3F1A049F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30160C01-F67B-4D8E-9A89-F5BB3F1A049F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30160C01-F67B-4D8E-9A89-F5BB3F1A049F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{30160C01-F67B-4D8E-9A89-F5BB3F1A049F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30160C01-F67B-4D8E-9A89-F5BB3F1A049F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30160C01-F67B-4D8E-9A89-F5BB3F1A049F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{42DAB00B-9AC9-4EE2-BB51-B4E8A2193496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DAB00B-9AC9-4EE2-BB51-B4E8A2193496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DAB00B-9AC9-4EE2-BB51-B4E8A2193496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DAB00B-9AC9-4EE2-BB51-B4E8A2193496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DB36A9-45FF-41A6-9257-28B88753C02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DB36A9-45FF-41A6-9257-28B88753C02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DB36A9-45FF-41A6-9257-28B88753C02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DB36A9-45FF-41A6-9257-28B88753C02F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56CCF5E-8AAA-4BAB-ABA2-6E6E16A5F50F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56CCF5E-8AAA-4BAB-ABA2-6E6E16A5F50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56CCF5E-8AAA-4BAB-ABA2-6E6E16A5F50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56CCF5E-8AAA-4BAB-ABA2-6E6E16A5F50F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A99708-E99E-4344-A93B-B0EBBEAE94AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A99708-E99E-4344-A93B-B0EBBEAE94AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A99708-E99E-4344-A93B-B0EBBEAE94AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A99708-E99E-4344-A93B-B0EBBEAE94AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC93F784-0BF9-4F5E-A060-E0C4EAFF8E2F}
+	EndGlobalSection
+EndGlobal
